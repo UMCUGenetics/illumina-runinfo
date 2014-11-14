@@ -1,0 +1,257 @@
+[inijman@hpcs01 raw_data]$ find $PWD -iname "runparameters.xml" -exec python parse_runinfo.py -p {} \;
+NextSeq Control Software        141107_NS500413_0033_H14U5BGXX  NEXTSEQ_HU01_CPCT_CPCT34WES     NextSeq High    H14U5BGXX       141107  true    151     151     6       0               NA
+NextSeq Control Software        141105_NS500414_0026_H03VJAFXX  NEXTSEQ_HU02_STEENBEEK_PLW002   NextSeq Mid     H03VJAFXX       141105  true    76      76      8       8               NA
+NextSeq Control Software        140926_NS500413_0020_H10L3BGXX  NEXTSEQ500_HU01_CPCT_CPCT30WES  NextSeq High    H10L3BGXX       140926  true    151     151     6       0               NA
+NextSeq Control Software        140924_NS500413_0019_H0YVUBGXX  NEXTSEQ500_HU01_CPCT_CPCT29ILLUMINA     NextSeq High    H0YVUBGXX       140924  true    151     151     6       0               NA
+HiSeq Control Software  140825_D00267_0145_AH9MB3ADXX   HiSeq_UMC01_ISpy15_A_H9MB3ADXX  RapidRun        H9MB3ADXX       140825  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140829_D00267_0149_AHA4V7ADXX   HiSeq_UMC01_ISpy14_A_HA4V7ADXX  RapidRun        HA4V7ADXX       140829  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140905_D00267_0155_AH9YMRADXX   HiSeq_UMC01_A_Diag_H9YMRADXX    RapidRun        H9YMRADXX       140905  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140930_D00267_0171_BHA4JWADXX   HiSeq_UMC01_B_Diag_HA4JWADXX    RapidRun        HA4JWADXX       140930  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140129_D00267_0064_AH8AJWADXX   HISEQ_UMC01_A_STC20119and10_H8AJWADXX   RapidRun        H8AJWADXX       140129  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140902_D00267_0151_AH9YMPADXX   HISEQ_UMC01_A_Diag_H9YMPADXX    RapidRun        H9YMPADXX       140902  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140718_D00267_0132_BH9M77ADXX   HiSeq_UMC01_B_Diag_H9M77ADXX    RapidRun        H9M77ADXX       140718  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140307_D00267_0083_AH8ACVADXX   HiSeq_UMC01_A_Diag_H8ACVADXX    RapidRun        H8ACVADXX       140307  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140205_D00267_0068_BH8AJFADXX   HISEQ_UMC01_B_HYPODONTIA19and20OFDfamily_H8AJFADXX      RapidRun        H8AJFADXX       140205  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140925_D00267_0167_BHA4NBADXX   HISEQ_UMC01_B_Diag_HA4NBADXX    RapidRun        HA4NBADXX       140925  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131111_D00267_0032_BH7W1KADXX   HISEQ_UMC01_B_BOXTEL_ORGANOID_LIV17513D_H7W1KADXX       RapidRun        H7W1KADXX       131111  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141028_D00267_0186_AHACNKADXX   HiSeq_UMC01_A_Diag_HACNKADXX    RapidRun        HACNKADXX       141028  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140425_D00267_0098_AH8LR4ADXX   HiSeq_UMC01_A_Diag_H8LR4ADXX    RapidRun        H8LR4ADXX       140425  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140805_D00267_0139_BH9YL5ADXX   HISEQ_UMC01_B_STC2011trio20&3_H9YL5ADXX RapidRun        H9YL5ADXX       140805  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140521_D00267_0107_AH9AD0ADXX   HISEQ_UMC01_A_AutoimmuneDifficiency_H9AD0ADXX   RapidRun        H9AD0ADXX       140521  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140813_D00267_0141_AH9MB7ADXX   HiSeq_UMC01_ISpy13_A_H9MB7ADXX  RapidRun        H9MB7ADXX       140813  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140613_D00267_0118_AH9BU6ADXX   HiSeq_UMC01_A_Diag_H9BU6ADXX    RapidRun        H9BU6ADXX       140613  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140428_D00267_0099_BH8PCAADXX   HiSeq_UMC01_B_Diag_H8PCAADXX    RapidRun        H8PCAADXX       140428  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140526_D00267_0112_BH8LRPADXX   HiSeq_UMC01_Diag_B_H8LRPADXX    RapidRun        H8LRPADXX       140526  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140821_D00267_0143_AH8M43ADXX   HISEQ_UMC01_A_TWIST2RNAseqKaren_H8M43ADXX       RapidRun        H8M43ADXX       140821  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140714_D00267_0130_BH9BU7ADXX   HISEQ_UMC01_B_STC201115&16_H9BU7ADXX    RapidRun        H9BU7ADXX       140714  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140114_D00267_0051_AH8A5PADXX   HISEQ_UMC01_A_AMStrio2father_H8A5PADXX  RapidRun        H8A5PADXX       140114  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140704_D00267_0124_BH9K6UADXX   HiSeq_UMC01_B_Diag_H9K6UADXX    RapidRun        H9K6UADXX       140704  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140707_D00267_0125_AH9MCVADXX   HiSeq_UMC01_A_Diag_H9MCVADXX    RapidRun        H9MCVADXX       140707  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141107_D00267_0190_AHAMV4ADXX   HiSeq_UMC01_A_Diag_HAMV4ADXX    RapidRun        HAMV4ADXX       141107  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140127_D00267_0062_AH8M8CADXX   HISEQ_UMC01_A_HYPODONTIApatients_H8M8CADXX      RapidRun        H8M8CADXX       140127  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140716_D00267_0131_AH9FD7ADXX   HISEQ_UMC01_A_OUDENAARDEN_AVO24_H9FD7ADXX       RapidRun        H9FD7ADXX       140716  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131113_D00267_0033_AH7WA4ADXX   HISEQ_UMCU01_A_CuppenBoxtelhuexome_H7WA4ADXX    RapidRun        H7WA4ADXX       131113  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140616_D00267_0120_AH9BU8ADXX   HiSeq_UMC01_A_Diag_H9BU8ADXX    RapidRun        H9BU8ADXX       140616  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141020_D00267_0182_AHAC1VADXX   HiSeq_UMC01_A_Diag_HAC1VADXX    RapidRun        HAC1VADXX       141020  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140523_D00267_0109_BH9D65ADXX   HiSeq_UMC01_ISpy09_B_H9D65ADXX  RapidRun        H9D65ADXX       140523  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140127_D00267_0063_BH8CPEADXX   HISEQ_UMC01_B_AMStrio2_H8CPEADXX        RapidRun        H8CPEADXX       140127  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140423_D00267_0097_BH9AD2ADXX   HISEQ_UMC01_B_AutoimmuneDifficiency_H9AD2ADXX   RapidRun        H9AD2ADXX       140423  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140725_D00267_0135_BH8MLAADXX   HISEQ_UMC01_B_STC2011trio15&16_H8MLAADXX        RapidRun        H8MLAADXX       140725  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140919_D00267_0161_BH9K4EADXX   HISEQ_UMCU01_B_DELAAT_WDL001_H9K4EADXX  RapidRun        H9K4EADXX       140919  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140430_D00267_0101_AH8MF4ADXX   HISEQ_UMC01_A_STC2011trio4&FilippiSyndromeTrio_H8MF4ADXX        RapidRun        H8MF4ADXX       140430  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140121_D00267_0055_BH8A7LADXX   HISEQ_UMC01_B_RIFOUNDERHICREDO_H8A7LADXX        RapidRun        H8A7LADXX       140121  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131224_D00267_0039_BH84U6ADXX   HISEQ_UMCO1_B_ISPY1_H84U6ADXX   RapidRun        H84U6ADXX       131224  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140922_D00267_0164_BH9YH0ADXX   HiSeq_UMC01_B_Diag_H9YH0ADXX    RapidRun        H9YH0ADXX       140922  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141017_D00267_0181_BHAC21ADXX   HiSeq_UMC01_B_Diag_HAC21ADXX    RapidRun        HAC21ADXX       141017  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140929_D00267_0169_BHA4MDADXX   HiSeq_UMC01_B_Diag_HA4MDADXX    RapidRun        HA4MDADXX       140929  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141023_D00267_0185_BHAC4FADXX   HiSeq_UMC01_B_Diag_HAC4FADXX    RapidRun        HAC4FADXX       141023  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+Traceback (most recent call last):
+  File "parse_runinfo.py", line 84, in <module>
+    result += runParameters.getElementsByTagName(f)[0].firstChild.nodeValue + "\t"
+AttributeError: 'NoneType' object has no attribute 'nodeValue'
+HiSeq Control Software  140924_D00267_0165_AH9K7BADXX   HISEQ_UMCU01_A_ACKERVEKEN_GVA001        RapidRun        H9K7BADXX       140924  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140113_D00267_0048_AH8A5KADXX   HISEQ_UMC01_A_OUDENAARDENRNASEQ_LKESTER-12-14-21-22_H8A5KADXX   RapidRun        H8A5KADXX       140113  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140516_D00267_0105_BH9AECADXX   HISEQ_UMC01_B_MarkRNAseq_H9AECADXX      RapidRun        H9AECADXX       140516  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141110_D00267_0192_AHAN15ADXX   HiSeq_UMC01_A_Diag_HAN15ADXX    RapidRun        HAN15ADXX       141110  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140114_D00267_0050_BH89E8ADXX   HISEQ_UMC01_B_HYPODONTIA1_H89E8ADXX     RapidRun        H89E8ADXX       140114  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140523_D00267_0110_AH8LRKADXX   HiSeq_UMC01_Diag_A_H8LRKADXX    RapidRun        H8LRKADXX       140523  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131221_D00267_0038_BH879KADXX   HISEQ_UMC01_B_TrueSeqLibraryPrep_H879KADXX      RapidRun        H879KADXX       131221  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140212_D00267_0070_AH8AJVADXX   HISEQ_UMC01_A_HYPODONTIA19and20OFDfamily_H8AJVADXX      RapidRun        H8AJVADXX       140212  true    101     47      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140605_D00267_0114_AH9BT5ADXX   HiSeq_UMC01_A_Diag_H9BT5ADXX    RapidRun        H9BT5ADXX       140605  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140303_D00267_0079_AH8LHBADXX   HISEQ_UMC01_A_MarkRNAseq_H8LHBADXX      RapidRun        H8LHBADXX       140303  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140925_D00267_0166_AH9YJAADXX   HISEQ_UMC01_A_Diag_H9YAADXX     RapidRun        H9YJAADXX       140925  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140307_D00267_0084_BH8AN7ADXX   HiSeq_UMC01_B_Diag_H8AN7ADXX    RapidRun        H8AN7ADXX       140307  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  130830_D00267_0025_AH720VADXX   rboxtel_sample_A5       RapidRun        H720VADXX       130830  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141008_D00267_0174_AHAC9FADXX   HiSeq_UMC01_A_Diag_HAC9FADXX    RapidRun        HAC9FADXX       141008  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141010_D00267_0176_AH9K4GADXX   HiSeq_UMC01_A_Diag_H9K4GADXX    RapidRun        H9K4GADXX       141010  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140805_D00267_0138_AH8LMLADXX   HISEQ_UMC01_A_CatelManzke&STC2011trio17_H8LMLADXX       RapidRun        H8LMLADXX       140805  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140311_D00267_0085_AH8M7AADXX   HISEQ_UMC01_A_CerebellarAgenesis_H8M7AADXX      RapidRun        H8M7AADXX       140311  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140827_D00267_0147_AH9M9HADXX   HiSeq_UMC01_A_Diag_H9M9HADXX    RapidRun        H9M9HADXX       140827  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  130903_D00267_0027_AH7234ADXX   sampleA6mouseLANE1      RapidRun        H7234ADXX       130903  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140930_D00267_0170_AHA4NCADXX   HiSeq_UMC01_A_Diag_HA4NCADXX    RapidRun        HA4NCADXX       140930  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140212_D00267_0071_BH8AJBADXX   HISEQ_UMC01_B_MarkRNAseq_H8AJBADXX      RapidRun        H8AJBADXX       140212  true    101     32      8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131108_D00267_0028_AH7W1EADXX   HISEQ_UMC01_A_BOXTEL_ORGANOID_LIV17513D_H7W1EADXX       RapidRun        H7W1EADXX       131108  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140922_D00267_0163_AHA4MMADXX   HiSeq_UMC01_A_Diag_HA4MMADXX    RapidRun        HA4MMADXX       140922  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140228_D00267_0076_BH8LPBADXX   HISEQ_UMC01_B_MarkRNAseq_H8LPBADXX      RapidRun        H8LPBADXX       140228  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141002_D00267_0173_BHA4MPADXX   HISEQ_UMC01_B_Diag_HA4MPADXX    RapidRun        HA4MPADXX       141002  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140910_D00267_0159_AHA5KYADXX   HiSeq_UMC01_ISpy16_A_HA5KYADXX  RapidRun        HA5KYADXX       140910  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140124_D00267_0058_BH8A4VADXX   HISEQ_UMC01_B_AMStrio2_H8A4VADXX        RapidRun        H8A4VADXX       140124  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140324_D00267_0089_AH8ME3ADXX   HISEQ_UMC01_A_AutoimmuneDifficiency_H8ME3ADXX   RapidRun        H8ME3ADXX       140324  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140121_D00267_0054_AH872EADXX   HISEQ_UMC01_A__AgilentDx_H872EADXX      RapidRun        H872EADXX       140121  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131108_D00267_0029_BH7WAFADXX   HISEQ_UMC01_B_BOXTEL_ORGANOID_LIV17513D_H7WAFADXX       RapidRun        H7WAFADXX       131108  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140603_D00267_0113_BH9C44ADXX   HiSeq_UMC01_B_ISpy10_H9C44ADXX  RapidRun        H9C44ADXX       140603  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140321_D00267_0088_AH8AJAADXX   HiSeq_UMC01_A_Diag_H8AJAADXX    RapidRun        H8AJAADXX       140321  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140109_D00267_0046_BH89E2ADXX   HISEQ_UMC01_B_BOXTEL_ORGANOID_BIOPSY_17513D_2_H89E2ADXX RapidRun        H89E2ADXX       140109  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140107_D00267_0044_AH85A8ADXX   HISEQ_UMC01_A_ISPY05_H85A8ADXX  RapidRun        H85A8ADXX       140107  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+Traceback (most recent call last):
+  File "parse_runinfo.py", line 84, in <module>
+    result += runParameters.getElementsByTagName(f)[0].firstChild.nodeValue + "\t"
+AttributeError: 'NoneType' object has no attribute 'nodeValue'
+HiSeq Control Software  140929_D00267_0168_AHA4KYADXX   HiSeq_UMC01_A_Diag_HA4KYADXX    RapidRun        HA4KYADXX       140929  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140116_D00267_0053_BH8A7DADXX   HISEQ_UMC01_B_RIFOUNDERHIC_H8A7DADXX    RapidRun        H8A7DADXX       140116  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140702_D00267_0121_AH9K6NADXX   HISEQ_UMC01_A_Diag_H9K6NADXX    RapidRun        H9K6NADXX       140702  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140702_D00267_0122_BH9K9VADXX   HISEQ_UMC01_B_Diag_H9K9VADXX    RapidRun        H9K9VADXX       140702  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140327_D00267_0090_AH8AHKADXX   HiSeq­_UMC01_A_Diag_H8AHKADXX   RapidRun        H8AHKADXX       140327  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140508_D00267_0103_BH9C4YADXX   HISEQ_UMC01_B_Diag_H9C4YADXX    RapidRun        H9C4YADXX       140508  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140305_D00267_0082_BH8ACDADXX   HISEQ_UMC01_B_OUDENAARDEN_AVO5_H8ACDADXX        RapidRun        H8ACDADXX       140305  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141002_D00267_0172_AHA4LJADXX   HISEQ_UMC01_A_Diag_HA4LJADXX    RapidRun        HA4LJADXX       141002  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140804_D00267_0136_AH8LMLADXX   HISEQ_UMC01_A_CatelManzke&STC2011trio17_H8LMLADXX       RapidRun        H8LMLADXX       140804  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140205_D00267_0067_AH8AAFADXX   HISEQ_UMC01_A_STC2011trio2and5_H8AAFADXX        RapidRun        H8AAFADXX       140205  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140403_D00267_0092_BH8ALJADXX   HISEQ_UMC01_B_Diag_H8ALJADXX    RapidRun        H8ALJADXX       140403  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140910_D00267_0158_BHA4LWADXX   HiSeq_UMC01_B_Diag_HA4LWADXX    RapidRun        HA4LWADXX       140910  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141107_D00267_0191_BH9K4VADXX   HiSeq_UMC01_B_Diag_H9K4VADXX    RapidRun        H9K4VADXX       141107  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140919_D00267_0162_AHAC4VADXX   HiSeq_UMC01_A_Diag_HAC4VADXX    RapidRun        HAC4VADXX       140919  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140217_D00267_0072_AH8AADADXX   HISEQ_UMC01_A_HYPODONTIA19and20OFDfamily_H8AADADXX      RapidRun        H8AADADXX       140217  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141015_D00267_0179_BH9H5BADXX   HISEQ_UMCU01_B_LKESTER_AVO35    RapidRun        H9H5BADXX       141015  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141015_D00267_0178_AHACLWADXX   HiSeq_UMC01_A_Diag_HACLWADXX    RapidRun        HACLWADXX       141015  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140908_D00267_0157_AH9WTWADXX   HiSeq_UMC01_A_Diag_H9WTWADXX    RapidRun        H9WTWADXX       140908  true    101     57      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141010_D00267_0177_BH9H7YADXX   HiSeq_UMC01_B_diag_H9H7YADXX    RapidRun        H9H7YADXX       141010  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140218_D00267_0073_AH8A2HADXX   HiSeq_UMC01_A_Diag_H8A2HADXX    RapidRun        H8A2HADXX       140218  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140311_D00267_0086_BH8LPCADXX   HISEQ_UMC01_B_MarkRNAseq_H8LPCADXX      RapidRun        H8LPCADXX       140311  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140228_D00267_0075_AH8A8UADXX   HiSeq_UMC01_A_Diag_H8A8UADXX    RapidRun        H8A8UADXX       140228  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140113_D00267_0049_BH8A9RADXX   HISEQ_UMC01_B_OUDENAARDENRNASEQ_MAURO_A6C2_2_H8A9RADXX  RapidRun        H8A9RADXX       140113  true    51      51      7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141017_D00267_0180_AHAC7JADXX   HiSeq_UMC01_A_Diag_HAC7JADXX    RapidRun        HAC7JADXX       141017  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131227_D00267_0040_AH84MMADXX   HISEQ_UMCO1_A_ISPY2_H84MMADXX   RapidRun        H84MMADXX       131227  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140508_D00267_0102_AH8LW7ADXX   HISEQ_UMC01_A_Diag_H8LW7ADXX    RapidRun        H8LW7ADXX       140508  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141008_D00267_0175_BHAC3HADXX   HiSeq_UMC01_B_Diag_HAC3HADXX    RapidRun        HAC3HADXX       141008  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140116_D00267_0052_AH8A58ADXX   HISEQ_UMC01_A_AMStrio2mother_H8A58ADXX_ RapidRun        H8A58ADXX       140116  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140829_D00267_0150_BH9VTAADXX   HiSeq_UMC01_B_Diag_H9VTAADXX    RapidRun        H9VTAADXX       140829  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140709_D00267_0128_BH8M5MADXX   HiSeq_UMC01_ISpy12_B_H8M5MADXX  RapidRun        H8M5MADXX       140709  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131129_D00267_0034_AH7VVHADXX   HISEQ_UMC01_A_STC2011_H7VVHADXX RapidRun        H7VVHADXX       131129  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140821_D00267_0144_BH9MB9ADXX   HiSeq_UMC01_ISpy13_B_H9MB9ADXX  RapidRun        H9MB9ADXX       140821  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140109_D00267_0047_AH879LADXX   HISEQ_UMC01_A_Agilent_Diagnostiek_H879LADXX     RapidRun        H879LADXX       140109  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140825_D00267_0146_BH9MELADXX   HiSeq_UMC01_B_Diag_H9MELADXX    RapidRun        H9MELADXX       140825  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131231_D00267_0042_BH84U0ADXX   HISEQ_UMCO1_B_ISPY3_H84U0ADXX   RapidRun        H84U0ADXX       131231  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  130813_D00267_0021_BH0V8TADXX   validation_UMCU_B       RapidRun        H0V8TADXX       130813  true    51      101     0       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140709_D00267_0127_AH8M5BADXX   HiSeq_UMC01_ISpy11_A_H8M5BADXX  RapidRun        H8M5BADXX       140709  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140122_D00267_0056_AH8A5EADXX   HISEQ_UMC01_A_AMStrio2mother_H8A5EADXX  RapidRun        H8A5EADXX       140122  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140124_D00267_0059_AH8AD6ADXX   HISEQ_UMC01_A_Diag_H8AD6ADXX    RapidRun        H8AD6ADXX       140124  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141023_D00267_0184_AHAC2GADXX   HiSeq_UMC01_A_Diag_HAC2GADXX    RapidRun        HAC2GADXX       141023  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140827_D00267_0148_BH9MBPADXX   HiSeq_UMC01_B_Diag_H9MBPADXX    RapidRun        H9MBPADXX       140827  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140704_D00267_0123_AH9KCMADXX   HiSeq_UMC01_A_Diag_H9KCMADXX    RapidRun        H9KCMADXX       140704  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131219_D00267_0036_AH871UADXX   HISEQ_UMC01_A_TruSeqLibPrep_H871UADXX   RapidRun        H871UADXX       131219  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131219_D00267_0037_BH871PADXX   HISEQ_UMC01_B_TotalAgilent_H871PADXX    RapidRun        H871PADXX       131219  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131230_D00260_0102_AH871EADXX_HISEQ_HU01_A_ISPY1_H871EADXX      HISEQ_HU01_A_ISPY1_H871EADXX    RapidRun        H871EADXX       131230  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140319_D00267_0087_BH8AAGADXX   HiSeq_UMC01_B_Diag_H8AAGADXX    RapidRun        H8AAGADXX       140319  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140516_D00267_0104_AH8MBEADXX   HISEQ_UMC01_A_CaRacAd_H8MBEADXX RapidRun        H8MBEADXX       140516  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140303_D00267_0080_BH8LJ3ADXX   HISEQ_UMC01_B_MarkRNAseq_H8LJ3ADXX      RapidRun        H8LJ3ADXX       140303  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140417_D00267_0094_BH8PY4ADXX   HiSeq_UMC01_B_Diag_H8PY4ADXX    RapidRun        H8PY4ADXX       140417  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140122_D00267_0057_BH8A55ADXX   HISEQ_UMC01_B_CRCstage3adCTx_H8A55ADXX  RapidRun        H8A55ADXX       140122  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140905_D00267_0156_BH9VU9ADXX   HiSeq_UMC01_B_Diag_H9VU9ADXX    RapidRun        H9VU9ADXX       140905  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140611_D00267_0116_AH9ABPADXX   HISEQ_UMC01_A_IVOandRAC_H9ABPADXX       RapidRun        H9ABPADXX       140611  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140327_D00267_0091_BH8M0FADXX   HiSeq_UMC01_B_Diag_H8M0FADXX    RapidRun        H8M0FADXX       140327  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140912_D00267_0160_BHA4N7ADXX   HiSeq_UMC01_B_Diag_HA4N7ADXX    RapidRun        HA4N7ADXX       140912  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+Traceback (most recent call last):
+  File "parse_runinfo.py", line 84, in <module>
+    result += runParameters.getElementsByTagName(f)[0].firstChild.nodeValue + "\t"
+AttributeError: 'NoneType' object has no attribute 'nodeValue'
+HiSeq Control Software  140902_D00267_0152_BH9VUAADXX   HISEQ_UMC01_B_Diag_H9VUAADXX    RapidRun        H9VUAADXX       140902  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141110_D00267_0193_BHAMVRADXX   HiSeq_UMC01_B_Diag_HAMVRADXX    RapidRun        HAMVRADXX       141110  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140714_D00267_0129_AH9BUEADXX   HISEQ_UMC01_A_HYPODONTIA21to26_H9BUEADXX        RapidRun        H9BUEADXX       140714  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140521_D00267_0108_BH8M4PADXX   HISEQ_UMC01_B_MarkRNAseq_H8M4PADXX      RapidRun        H8M4PADXX       140521  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140707_D00267_0126_BH9MANADXX   HiSeq_UMC01_B_Diag_H9MANADXX    RapidRun        H9MANADXX       140707  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140903_D00267_0153_AH9VTCADXX   HiSeq_UMC01_A_Diag_H9VTCADXX    RapidRun        H9VTCADXX       140903  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141028_D00267_0187_BHAC1RADXX   HiSeq_UMC01_B_diag_HAC1RADXX    RapidRun        HAC1RADXX       141028  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  141020_D00267_0183_BHAC7VADXX   HiSeq_UMC01_B_Diag_HAC7VADXX    RapidRun        HAC7VADXX       141020  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140131_D00267_0066_AH8AKMADXX   HISEQ_UMC01_A_HYPODONTIApatient7,14,15,16,17,18_H8AKMADXX       RapidRun        H8AKMADXX       140131  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  131211_D00267_0035_BH8070ADXX   STC2011 RapidRun        H8070ADXX       131211  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  130830_D00267_0024_BH0V4NADXX   rboxtel_sample_A5       RapidRun        H0V4NADXX       130830  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140417_D00267_0093_AH8PCJADXX   HiSeq_UMC01_A_Diag_H8PCJADXX    RapidRun        H8PCJADXX       140417  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140103_D00267_0043_BH873TADXX   HISEQ_UMC01_B_ISPY4_H873TADXXX  RapidRun        H873TADXX       140103  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140613_D00267_0119_BH9AV6ADXX   HiSeq_UMC01_B_Diag_H9AV6ADXX    RapidRun        H9AV6ADXX       140613  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140221_D00267_0074_AH8M60ADXX   HISEQ_UMC01_A_STC2011trio6and14_H8M60ADXX       RapidRun        H8M60ADXX       140221  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140725_D00267_0134_AH9M9KADXX   HiSeq_UMC01_A_Diag_H9M9KADXX    RapidRun        H9M9KADXX       140725  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140129_D00267_0065_BH8AKUADXX   HISEQ_UMC01_B_STC201111and12_H8AKUADXX  RapidRun        H8AKUADXX       140129  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140611_D00267_0117_BH9ACTADXX   HISEQ_UMC01_B_MarkRNAseq_H9ACTADXX      RapidRun        H9ACTADXX       140611  true    101     101     8       8       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140903_D00267_0154_BH9WRRADXX   HiSeq_UMC01_B_Diag_H9WRRADXX    RapidRun        H9WRRADXX       140903  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  130903_D00267_0026_BH13AVADXX   sampleA6mouseLANE2      RapidRun        H13AVADXX       130903  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140519_D00267_0106_AH8M20ADXX   HiSeq_UMC01_Diag_A_H8M20ADXX    RapidRun        H8M20ADXX       140519  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140107_D00267_0045_BH85ARADXX   HISEQ_UMC01_B_ISY06_H85ARADXX   RapidRun        H85ARADXX       140107  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140804_D00267_0137_BH9YL5ADXX   HISEQ_UMC01_B_STC2011trio20&3_H9YL5ADXX RapidRun        H9YL5ADXX       140804  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140526_D00267_0111_AH8LRTADXX   HiSeq_UMC01_Diag_A_H8LRTADXX    RapidRun        H8LRTADXX       140526  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+HiSeq Control Software  140605_D00267_0115_BH9BUJADXX   HiSeq_UMC01_B_Diag_H9BUJADXX    RapidRun        H9BUJADXX       140605  true    101     101     7       0       TruSeq Rapid PE Cluster Kit
+MiSeq Control Software  140610_M01102_0090_000000000-G01BC      Derksen02       000000000-G01BC 140610  true    151     151     6       NA      Default
+MiSeq Control Software  141017_M01102_0142_000000000-AATHG      HLA_171014_SL   000000000-AATHG 141017  true    251     251     8       8       Amplicon
+MiSeq Control Software  140623_M01102_0096_000000000-A8P22      20140623_Ellen  000000000-A8P22 140623  true    251     251     8       8       Amplicon
+MiSeq Control Software  140423_M01102_0075_000000000-A8RTN      MIPrebalance    000000000-A8RTN 140423  true    151     151     8       NA      Default
+MiSeq Control Software  140430_M01102_0078_000000000-A90YY      VALSE_MEELDAUW  000000000-A90YY 140430  true    251     251     6       NA      Default
+MiSeq Control Software  130725_M01102_0023_000000000-A3KPY      SSC 500bp       000000000-A3KPY 130725  true    255     255     6       NA      Default
+MiSeq Control Software  140815_M01102_0117_000000000-AA8F1      hla_150814_wvg  000000000-AA8F1 140815  true    251     251     8       8       Amplicon
+MiSeq Control Software  140725_M01102_0107_000000000-AA8TL      NGS_HLA_250714_WVG      000000000-AA8TL 140725  true    251     251     8       8       Amplicon
+MiSeq Control Software  140905_M01102_0126_000000000-AA8RR      NGS_050914_ss   000000000-AA8RR 140905  true    251     251     8       8       Amplicon
+MiSeq Control Software  140822_M01102_0120_000000000-AA816      NGS_220814_SS   000000000-AA816 140822  true    251     251     8       8       Amplicon
+MiSeq Control Software  140616_M01102_0093_000000000-A8R5K      HOISCHEN5_MIP_PLD_RNASMMIPs     000000000-A8R5K 140616  true    151     151     8       NA      Default
+MiSeq Control Software  140924_M01102_0133_000000000-AA2UG      20140924_Tim    000000000-AA2UG 140924  true    251     251     8       8       Amplicon
+MiSeq Control Software  140404_M01102_0072_000000000-A8KN5      PERONOSPORA_FARINOSA    000000000-A8KN5 140404  true    251     251     6       NA      Default
+MiSeq Control Software  140721_M01102_0105_000000000-AA617      20140721_Ellen2 000000000-AA617 140721  true    251     251     8       8       Amplicon
+MiSeq Control Software  140514_M01102_0082_000000000-A8A58      Paula14052014   000000000-A8A58 140514  true    151     151     8       8       Amplicon
+MiSeq Control Software  140411_M01102_0074_000000000-A81V4      11042014HLA     000000000-A81V4 140411  true    251     251     8       8       Amplicon
+MiSeq Control Software  140807_M01102_0113_000000000-A94K5      OncoAmp04       000000000-A94K5 140807  true    151     151     8       8       Amplicon
+MiSeq Control Software  141029_M01102_0147_000000000-ABB6R      20141029_Dennis 000000000-ABB6R 141029  true    251     251     8       8       Amplicon
+MiSeq Control Software  140409_M01102_0073_000000000-A8FFW      MIPrebalance    000000000-A8FFW 140409  true    151     151     8       NA      Default
+MiSeq Control Software  140922_M01102_0132_000000000-AB5U4      WouterN run 1 22-09-2014        000000000-AB5U4 140922  true    151     151     8       8       Amplicon
+MiSeq Control Software  140428_M01102_0077_000000000-A8TC3      GoNL28042014    000000000-A8TC3 140428  true    251     251     8       NA      Default
+MiSeq Control Software  141001_M01102_0136_000000000-AABVH      MISEQ_UMCU01_XUEBAO_XB001       000000000-AABVH 141001  true    251     251     6       NA      Default
+MiSeq Control Software  141020_M01102_0143_000000000-G03A6      Derksen01       000000000-G03A6 141020  true    151     151     6       NA      Default
+MiSeq Control Software  140908_M01102_0127_000000000-A462N      PC_Free29082014 000000000-A462N 140908  true    251     251     6       NA      Default
+MiSeq Control Software  140820_M01102_0119_000000000-AA1W1      20140820_Wouter 000000000-AA1W1 140820  true    151     151     8       8       Amplicon
+MiSeq Control Software  140929_M01102_0135_000000000-AAUDC      TestRunIsabel01 000000000-AAUDC 140929  true    251     251     8       8       Amplicon
+MiSeq Control Software  141015_M01102_0141_000000000-ABALY      20141015_Ellen  000000000-ABALY 141015  true    251     251     8       8       Amplicon
+MiSeq Control Software  140703_M01102_0100_000000000-G01EE      Derksen03       000000000-G01EE 140703  true    151     151     6       NA      Default
+MiSeq Control Software  140718_M01102_0104_000000000-A9HBH      HLA_180714_ss   000000000-A9HBH 140718  true    251     251     8       8       Amplicon
+MiSeq Control Software  140331_M01102_0070_000000000-A819M      NA      000000000-A819M 140331  true    251     251     8       8       Amplicon
+MiSeq Control Software  140521_M01102_0085_000000000-A8P0J      NA      000000000-A8P0J 140521  true    251     251     8       8       Amplicon
+MiSeq Control Software  140730_M01102_0109_000000000-A91A6      MISEQ_UMC01_DELAAT_CARLOVERMEULEN_001   000000000-A91A6 140730  true    151     151     6       NA      Default
+MiSeq Control Software  140805_M01102_0112_000000000-A7314      GoNLovarian3nb04082014  000000000-A7314 140805  true    251     251     8       8       Amplicon
+MiSeq Control Software  140425_M01102_0076_000000000-A7RTE      Axel20140425    000000000-A7RTE 140425  true    251     251     8       8       Amplicon
+MiSeq Control Software  141031_M01102_0148_000000000-AATHW      HLA_311014_SL   000000000-AATHW 141031  true    251     251     8       8       Amplicon
+MiSeq Control Software  140716_M01102_0103_000000000-A8TUT      20140716_Ellen  000000000-A8TUT 140716  true    251     251     8       8       Amplicon
+MiSeq Control Software  140526_M01102_0087_000000000-G01BB      Derksen01       000000000-G01BB 140526  true    151     151     6       NA      Default
+MiSeq Control Software  140620_M01102_0095_000000000-A9HWC      200614adg       000000000-A9HWC 140620  true    251     251     8       8       Amplicon
+MiSeq Control Software  140625_M01102_0097_000000000-D06MY      MISEQ_UMCU01_KOUDIJS_CAT001_25-06-2014  000000000-D06MY 140625  true    251     251     8       8       Amplicon
+MiSeq Control Software  141022_M01102_0144_000000000-ABAHV      20141022_Tim16S 000000000-ABAHV 141022  true    251     251     8       8       Amplicon
+MiSeq Control Software  140919_M01102_0131_000000000-AATUY      hla_190914_wvg  000000000-AATUY 140919  true    251     251     8       8       Amplicon
+MiSeq Control Software  140328_M01102_0069_000000000-A7L5E      SIMULANS        000000000-A7L5E 140328  true    251     251     6       NA      Default
+MiSeq Control Software  140606_M01102_0089_000000000-A8M24      060614_HLA_WVG  000000000-A8M24 140606  true    251     251     8       8       Amplicon
+MiSeq Control Software  140627_M01102_0098_000000000-A9HJ9      270614_HLA_WvG  000000000-A9HJ9 140627  true    251     251     8       8       Amplicon
+MiSeq Control Software  141024_M01102_0145_000000000-AAT5U      HLA_241014_SL   000000000-AAT5U 141024  true    251     251     8       8       Amplicon
+MiSeq Control Software  140903_M01102_0125_000000000-AA3J2      MISEQ_UMC01_DELAAT_CARLOVERMEULEN_002   000000000-AA3J2 140903  true    251     251     6       NA      Default
+MiSeq Control Software  140804_M01102_0111_000000000-G024W      Derksen05       000000000-G024W 140804  true    151     151     6       NA      Default
+MiSeq Control Software  140507_M01102_0080_000000000-A8JJF      TLA_PAULA       000000000-A8JJF 140507  true    151     151     8       8       Amplicon
+MiSeq Control Software  140825_M01102_0121_000000000-AAFA3      20140825_Laura  000000000-AAFA3 140825  true    251     251     8       8       Amplicon
+MiSeq Control Software  140523_M01102_0086_000000000-A8LTM      230514_HLA_wvg  000000000-A8LTM 140523  true    251     251     8       8       Amplicon
+MiSeq Control Software  140707_M01102_0102_000000000-A70PM      Joel001 000000000-A70PM 140707  true    151     151     6       NA      Default
+MiSeq Control Software  141010_M01102_0140_000000000-AATUT      HLA_101014_SL   000000000-AATUT 141010  true    251     251     8       8       Amplicon
+MiSeq Control Software  130305_M01102_0008_000000000-A33DU      Ovarian Cancer 1        000000000-A33DU 130305  true    251     251     8       8       Amplicon
+MiSeq Control Software  140801_M01102_0110_000000000-AA819      hla_010814_wvg  000000000-AA819 140801  true    251     251     8       8       Amplicon
+MiSeq Control Software  140811_M01102_0115_000000000-G026C      Derksen06       000000000-G026C 140811  true    151     151     6       NA      Default
+MiSeq Control Software  140829_M01102_0123_000000000-AA8EG      NGS_290814_SS   000000000-AA8EG 140829  true    251     251     8       8       Amplicon
+MiSeq Control Software  140502_M01102_0079_000000000-A8PD6      MIPrebalance    000000000-A8PD6 140502  true    151     151     8       NA      Default
+MiSeq Control Software  140901_M01102_0124_000000000-A930D      NuGEN Fusiongene panel test I   000000000-A930D 140901  true    151     151     14      NA      Default
+MiSeq Control Software  130103_M01102_0006_000000000-A331C      GoNLSV  000000000-A331C 130103  true    251     251     8       NA      Default
+MiSeq Control Software  140704_M01102_0101_000000000-A9HBF      7-4-14_SS       000000000-A9HBF 140704  true    251     251     8       8       Amplicon
+MiSeq Control Software  140228_M01102_0063_000000000-A5MK4      SIMULANS        000000000-A5MK4 140228  true    251     251     6       NA      Default
+MiSeq Control Software  140509_M01102_0081_000000000-A8R3D      090514TH        000000000-A8R3D 140509  true    251     251     8       8       Amplicon
+MiSeq Control Software  140915_M01102_0129_000000000-AA3VD      MISEQ_UMCU01_OUDENAARDEN_AVO34  000000000-AA3VD 140915  true    151     151     6       NA      Default
+MiSeq Control Software  140604_M01102_0088_000000000-A90Y9      TLA_PWIJCHERS_deLaat01redo      000000000-A90Y9 140604  true    151     151     8       8       Amplicon
+MiSeq Control Software  140716_M01102_0103_000000000-A8TUT      20140716_Ellen  000000000-A8TUT 140716  true    251     251     8       8       Amplicon
+MiSeq Control Software  140917_M01102_0130_000000000-AAV65      20140917_Ellen  000000000-AAV65 140917  true    251     251     8       8       Amplicon
+MiSeq Control Software  140723_M01102_0106_000000000-G01AJ      Derksen04       000000000-G01AJ 140723  true    151     151     6       NA      Default
+MiSeq Control Software  140728_M01102_0108_000000000-G019W      Derksen05       000000000-G019W 140728  true    151     151     6       NA      Default
+MiSeq Control Software  140827_M01102_0122_000000000-AAC1L      20140827_Ellen_Repeat   000000000-AAC1L 140827  true    251     251     8       8       Amplicon
+MiSeq Control Software  140516_M01102_0083_000000000-A8RAR      160514TH        000000000-A8RAR 140516  true    251     251     8       8       Amplicon
+MiSeq Control Software  141105_M01102_0149_000000000-AAC1Y      MISEQ_UMC01_CVERMEULEN_WDL004   000000000-AAC1Y 141105  true    151     151     8       8       Amplicon
+MiSeq Control Software  140618_M01102_0094_000000000-A9110      MIPrebalance    000000000-A9110 140618  true    151     151     8       NA      Default
+MiSeq Control Software  140818_M01102_0118_000000000-AAC81      201408_Laura    000000000-AAC81 140818  true    251     251     8       8       Amplicon
+MiSeq Control Software  141006_M01102_0138_000000000-AB454      20141006_Ellen  000000000-AB454 141006  true    251     251     8       8       Amplicon
+MiSeq Control Software  140519_M01102_0084_000000000-A94FJ      TruSeq_OncoAmp03        000000000-A94FJ 140519  true    151     151     8       8       Amplicon
+MiSeq Control Software  140813_M01102_0116_000000000-A8R08      20140813_Ellen_repeat   000000000-A8R08 140813  true    251     251     8       8       Amplicon
+MiSeq Control Software  141003_M01102_0137_000000000-AATV2      HLA_031014_SL   000000000-AATV2 141003  true    251     251     8       8       Amplicon
+MiSeq Control Software  140402_M01102_0071_000000000-A7RYA      Axel02042014    000000000-A7RYA 140402  true    251     251     8       8       Amplicon
+MiSeq Control Software  140611_M01102_0091_000000000-A7R0H      AVO12_Philipp_11-06-2014        000000000-A7R0H 140611  true    251     251     6       NA      Default
+MiSeq Control Software  140703_M01102_0100_000000000-G01EE      Derksen03       000000000-G01EE 140703  true    151     151     6       NA      Default
+MiSeq Control Software  140912_M01102_0128_000000000-AAU5D      ngs_120914_ss   000000000-AAU5D 140912  true    251     251     8       8       Amplicon
+MiSeq Control Software  140926_M01102_0134_000000000-AATUU      HLA_260914_SL   000000000-AATUU 140926  true    251     251     8       8       Amplicon
+MiSeq Control Software  140613_M01102_0092_000000000-A8M1J      13064_HLA_WVG   000000000-A8M1J 140613  true    251     251     8       8       Amplicon
+MiSeq Control Software  140808_M01102_0114_000000000-AA8D9      HLA_080814_WVG  000000000-AA8D9 140808  true    251     251     8       8       Amplicon
+
