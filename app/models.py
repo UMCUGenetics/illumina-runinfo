@@ -1,6 +1,6 @@
 from app import db
 
-class Run(db.Model):
+class RunInfo(db.Model):
     ## HiSeq + MiSeq + NextSeq
     id = db.Column(db.Integer, primary_key=True)
     run_id = db.Column(db.String(50), nullable=False)
@@ -8,7 +8,7 @@ class Run(db.Model):
     run_start_date = db.Column(db.Date)
 
     #HiSeq + MiSeq
-    barcode = db.Column(db.String(50), nullable=False)
+    #barcode = db.Column(db.String(50), nullable=False)
 
     #HiSeq
     #run_mode =
@@ -35,11 +35,14 @@ class Run(db.Model):
         self.run_id = run_id
         self.experiment_name = experiment_name
 
+    def __repr__(self):
+	return "{} \t {} \t {}".format(self.run_id, self.experiment_name, self.run_start_date)
+
 class Platform(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50))
     application_name = db.Column(db.String(80))
 
-    def __init__(self, name, application_name:
+    def __init__(self, name, application_name):
         self.name = name
         self.application_name = application_name
