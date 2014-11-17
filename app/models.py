@@ -5,7 +5,7 @@ class RunInfo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     run_id = db.Column(db.String(50), nullable=False)
     experiment_name = db.Column(db.String(100), nullable=False)
-    run_start_date = db.Column(db.Date)
+    run_start_date = db.Column(db.Date, nullable=False)
 
     #HiSeq + MiSeq
     #barcode = db.Column(db.String(50), nullable=False)
