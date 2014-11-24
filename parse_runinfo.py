@@ -1,5 +1,7 @@
 import argparse
+import datetime
 from xml.dom.minidom import parse
+
 
 from app import db
 from app.models import RunInfo, Platform
@@ -8,29 +10,36 @@ from app.models import RunInfo, Platform
 
 
 #get_firstChild_value
-def get_firstChild_value(run_param, tag):
-    return
+def get_firstChild_value(run_params, tag):
+    return run_params.getElementsByTagName(tag)[0].firstChild.nodeValue
 
 #Parse HiSeq
 def parse_hiseq(run_params):
-    run_id = run_params.getElementsByTagName('RunID')[0].firstChild.nodeValue
-    experiment_name = run_params.getElementsByTagName('ExperimentName')[0].firstChild.nodeValue
+    run_start_date = get_firstChild_value(run_params, 'RunStartDate')
+    run_start_date = datetime.datetime.strptime(run_start_date, "%y%m%d").date()
 
-    run_mode = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    barcode = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    run_start_date = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    pair_end_fc = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    read_1 = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    read_2 = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    index_read_1 = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    index_read_2 = run_params.getElementsByTagName('')[0].firstChild.nodeValue
-    pe = run_params.getElementsByTagName('')[0].firstChild.nodeValue
+    platform = Platform.query.filter(Platform.name == 'HiSeq').first()
 
-    HSfields = ['RunMode', 'Barcode','RunStartDate','PairEndFC','Read1','Read2', 'IndexRead1','IndexRead2','Pe' ]
+    run_info = RunInfo(
 
+        run_id = get_firstChild_value(run_params, 'RunID'),
+        experiment_name = get_firstChild_value(run_params, 'ExperimentName'),
 
+        run_mode = get_firstChild_value(run_params, 'RunMode'),
+        barcode = get_firstChild_value(run_params, 'Barcode'),
+        run_start_date = run_start_date,
+        pair_end_fc = bool(get_firstChild_value(run_params, 'PairEndFC')),
+        read_1 = int(get_firstChild_value(run_params, 'Read1')),
+        read_2 = int(get_firstChild_value(run_params, 'Read2')),
+        index_read_1 = int(get_firstChild_value(run_params, 'IndexRead1')),
+        index_read_2 = int(get_firstChild_value(run_params, 'IndexRead2')),
+        pe = get_firstChild_value(run_params, 'Pe'),
 
-    #run_info = RunInfo(run_id, experiment_name)
+        platform = platform
+    )
+
+    return run_info
+
 
 #Parse MiSeq
 #Parse NextSeq
@@ -52,29 +61,5 @@ if __name__ == "__main__":
     #elif platform == 'nextseq':
 	#run_info = parse_nextseq(run_parameters)
 
-    #db.session.add(run_info)
-    #db.session.commit()
-
-"""
-    HSfields = ['ApplicationName','RunID','ExperimentName','RunMode', 'Barcode','RunStartDate','PairEndFC','Read1','Read2', 'IndexRead1','IndexRead2','Pe' ]
-    #if run_parameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue == 'MiSeq Control Software':
-	platform = 'miseq'
-
-    elif runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue == 'HiSeq Control Software':
-    #typically HiSeq format
-    result = ''
-    for f in HSfields:
-	if runParameters.getElementsByTagName(f):
-    	    result += runParameters.getElementsByTagName(f)[0].firstChild.nodeValue + "\t"
-    	else:
-	    result += "NA" + "\t"
-    print result
-elif runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue == 'NextSeq Control Software':
-    #typically NextSeq format
-    for f in NSfields:
-	if runParameters.getElementsByTagName(f):
-	    result += runParameters.getElementsByTagName(f)[0].firstChild.nodeValue + "\t"
-        else:
-	    result += "NA" + "\t"
-    print result + "\tNA"
-"""
+    db.session.add(run_info)
+    db.session.commit()
