@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block platform %}{{ platform }}{% endblock %}
+
+{% block runs %}
+<tbody>
+{% for run in runs %}
+  <tr>
+    <td>{{ run.run_start_date.strftime('%d-%m-%Y') }}</td>
+    <td>{{ run.run_id }}</td>
+    <td>{{ run.experiment_name }}</td>
+    <td>{{ run.barcode }}</td>
+    <td>{{ run.run_mode }}</td>
+    <td>{{ run.paired_end }}</td>
+    <td>{{ run.read_1 }}</td>
+    <td>{{ run.read_2 }}</td>
+    <td>{{ run.index_read_1 }}</td>
+    <td>{{ run.index_read_2 }}</td>
+    <td>{{ run.pe }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+{% endblock %}
