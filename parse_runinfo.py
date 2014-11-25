@@ -1,6 +1,8 @@
 import argparse
+import sys
 import datetime
 from xml.dom.minidom import parse
+from sqlalchemy import exc
 
 from app import db
 from app.models import RunInfo, Platform
@@ -109,23 +111,27 @@ def parse_nextseq(run_params):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('platform', choices=['hiseq','miseq','nextseq'], help="Sequencing platform")
-    parser.add_argument('paramFile', help="Illumina runParameters.xml file")
+    parser.add_argument('runParametersFile', help="Illumina runParameters.xml file")
     args = parser.parse_args()
 
     # Parse runParameters.xml
-    run_parameters = parse(args.paramFile)
-    platform = args.platform
+    run_parameters = parse(args.runParametersFile)
 
-    if platform == 'hiseq':
+    application_name = get_firstChild_value(run_parameters, 'ApplicationName')
+    if application_name == 'HiSeq Control Software':
         run_info = parse_hiseq(run_parameters)
-    elif platform == 'miseq':
+    elif application_name == 'MiSeq Control Software':
         run_info = parse_miseq(run_parameters)
-    elif platform == 'nextseq':
+    elif application_name == 'NextSeq Control Software':
         run_info = parse_nextseq(run_parameters)
+    else:
+        sys.exit("Unknown ApplicationName")
 
     # Save run_info object to database
-    db.session.add(run_info)
-    db.session.commit()
-
-    print "Added to database:\t" + str(run_info)
+    try:
+        db.session.add(run_info)
+        db.session.commit()
+        print "Added to database:\t" + str(run_info)
+    except exc.IntegrityError:
+        db.session.rollback()
+        sys.exit("This run is already in the database:\t" + str(run_info))
