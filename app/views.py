@@ -6,7 +6,7 @@ from app.models import RunInfo, Platform
 
 @app.route("/")
 def index():
-    return "Illumina runinfo"
+    return render_template('index.html')
 
 @app.route("/platform/<platform_name>")
 def show_runinfo(platform_name):
