@@ -12,7 +12,7 @@ parser.add_argument("-p","--paramfile", help="Illumina runParameters.xml file", 
 args = parser.parse_args()
 NSfields = ['ApplicationName','RunID','ExperimentName', 'Chemistry', 'FlowCellSerial','RunStartDate','IsPairedEnd','PlannedRead1Cycles','PlannedRead2Cycles', 'PlannedIndex1ReadCycles', 'PlannedIndex2ReadCycles']
 #HSfields = ['RunID','ExperimentName', 'Chemistry', 'LibraryID', 'RunNumber', 'FlowCellSerial','RunStartDate','IsPairedEnd','PlannedRead1Cycles','PlannedRead2Cycles', 'PlannedIndex1ReadCycles', 'PlannedIndex2ReadCycles', 'ApplicationName']
-HSfields = ['ApplicationName','RunID','ExperimentName','RunMode', 'Barcode','RunStartDate','PairEndFC','Read1','Read2', 'IndexRead1','IndexRead2','Pe' ]
+HSfields = ['ApplicationName','RunID','ExperimentName',  'RunMode',  'Barcode',       'RunStartDate', 'PairEndFC', 'Read1',              'Read2',              'IndexRead1'            , 'IndexRead2',              'Pe' ]
 MSfields = ['ApplicationName','RunID','ExperimentName', 'Barcode','RunStartDate']
 
 result = ''
@@ -49,7 +49,7 @@ if runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue
 	    result += "NA" + "\t"
 
     #get readlengths for reads
-    	
+
     read1 = runParameters.getElementsByTagName('RunInfoRead')[0].getAttribute('NumCycles') + "\t"
     if runParameters.getElementsByTagName('RunInfoRead')[1].getAttribute('IsIndexedRead') == 'N':
         read2 = runParameters.getElementsByTagName('RunInfoRead')[1].getAttribute('NumCycles') + "\t"
@@ -66,16 +66,16 @@ if runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue
 	    index2 = "NA" + "\t"
 	    read2 = runParameters.getElementsByTagName('RunInfoRead')[2].getAttribute('NumCycles') + "\t"
 	    PE = "true" + "\t"
-	
+
 	result += PE
 	result += read1
 	result += read2
 	result += index1
 	result += index2
-	
+
 	result += runParameters.getElementsByTagName('Chemistry')[0].firstChild.nodeValue + "\t"
 	print result
-	
+
 elif runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeValue == 'HiSeq Control Software':
     #typically HiSeq format
     result = ''
@@ -93,5 +93,3 @@ elif runParameters.getElementsByTagName('ApplicationName')[0].firstChild.nodeVal
         else:
 	    result += "NA" + "\t"
     print result + "\tNA"
-
-
